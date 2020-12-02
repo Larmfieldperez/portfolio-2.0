@@ -16,7 +16,9 @@ function App() {
           <h2>Software Enginner</h2>
         </div>
 
-        <h1>Laura Armfield-Perez</h1>
+        <div className="Name">
+          <h1>Laura Armfield-Perez</h1>
+        </div>
 
         <div className="About-Button">
           <h2>About ME</h2>
