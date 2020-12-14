@@ -4,7 +4,14 @@ import AboutPopUp from './AboutPopUp';
 import React, {useState} from 'react';
 
 function App() {
-  const [aboutState, toggleAboutState] = useState(false)
+  const [showAbout, toggleAbout] = useState(true)
+
+  const handleAbout = () => {
+    // console.log('curr about state is ', showAbout)
+    // console.log('ABOUT WAS CLICKED HEHEH')
+    toggleAbout(showAbout => !showAbout)
+    // console.log('after click, about state is ', showAbout)
+  }
 
   return (
     <div className="App">
@@ -23,11 +30,13 @@ function App() {
           <h1>Laura <br></br> Armfield-Perez</h1>
         </div>
 
-        <div className="About-Button">
+        <div className="About-Button" onClick={() => handleAbout()}>
           <h2>About ME</h2>
         </div>
 
-        <div className='aboutPopUpContainer'><AboutPopUp/></div>
+        {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> : <div/>}
+
+        {/* <div className='aboutPopUpContainer'><AboutPopUp/></div> */}
 
       </div>
 
