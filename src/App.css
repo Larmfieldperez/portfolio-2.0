@@ -51,6 +51,7 @@ body {
 
 .Engineer-Bubble {
   background-color: white;
+  justify-self: flex-start;
   text-align: center;
   width: 300px;
   padding: 10px;
@@ -69,6 +70,8 @@ body {
 
 .aboutPopUpContainer {
   border: 2px solid pink;
+  align-self: center;
+  justify-self: center;
 }
 
 /* .App {

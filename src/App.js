@@ -26,15 +26,21 @@ function App() {
           <h2>Software Enginner</h2>
         </div>
 
-        <div className="Name">
+
+        {/* {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> : <div/>} */}
+        {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
           <h1>Laura <br></br> Armfield-Perez</h1>
-        </div>
+        </div>}
+
+        {/* <div className="Name">
+          <h1>Laura <br></br> Armfield-Perez</h1>
+        </div> */}
 
         <div className="About-Button" onClick={() => handleAbout()}>
+          {/* should this be a hover thing IDK */}
           <h2>About ME</h2>
         </div>
 
-        {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> : <div/>}
 
         {/* <div className='aboutPopUpContainer'><AboutPopUp/></div> */}
 
