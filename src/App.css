@@ -2,6 +2,8 @@
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Bree Serif', serif;
+  /* font-family: 'Markazi Text', serif; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(to bottom right, rgb(255, 38, 237), rgb(7, 255, 255));
@@ -29,18 +31,22 @@ body {
 }
 
 .main {
-  margin: 5px;
+  /* margin: 5px; */
+  margin-top: 12vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border: 2px solid yellow;
-  height: 100vh;
+  height: 85vh;
 }
 
 .Name {
   align-self: center;
   justify-self: center;
+  text-align: center;
+  transform: rotate(-10deg);
+  font-size: 2em;
 }
 
 .Engineer-Bubble {
@@ -59,6 +65,10 @@ body {
   width: 300px;
   padding: 10px;
   /* margin: 10px; */
+}
+
+.aboutPopUpContainer {
+  border: 2px solid pink;
 }
 
 /* .App {
