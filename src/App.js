@@ -1,10 +1,11 @@
 import logo from './logo.svg';
+import pow from './pow.png'
 import './App.css';
 import AboutPopUp from './AboutPopUp';
 import React, {useState} from 'react';
 
 function App() {
-  const [showAbout, toggleAbout] = useState(true)
+  const [showAbout, toggleAbout] = useState(false)
 
   const handleAbout = () => {
     // console.log('curr about state is ', showAbout)
@@ -22,23 +23,26 @@ function App() {
       </header>
 
       <div className="main">
-        <div className="Engineer-Bubble">
-          <h2>Software Enginner</h2>
+
+        <div className='section'>
+
+          <div className="EngineerWords">
+            <h2>Software Enginner</h2>
+          </div>
+
+          {/* <img src={pow} alt="pow bubble" className='pow'/> */}
         </div>
 
-
-        {/* {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> : <div/>} */}
+        {/* NAME AREA/ABOUT INFO */}
         {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
           <h1>Laura <br></br> Armfield-Perez</h1>
         </div>}
 
-        {/* <div className="Name">
-          <h1>Laura <br></br> Armfield-Perez</h1>
-        </div> */}
-
-        <div className="About-Button" onClick={() => handleAbout()}>
-          {/* should this be a hover thing IDK */}
-          <h2>About ME</h2>
+        <div className='section'>
+          <div className="About-Button" onClick={() => handleAbout()}>
+            {/* should this be a hover thing IDK */}
+            <h2>About ME</h2>
+          </div>
         </div>
 
 
