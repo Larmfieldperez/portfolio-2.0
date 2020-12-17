@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import pow from './pow.png'
 import './App.css';
 import AboutPopUp from './AboutPopUp';
+import FeaturedProject from './FeaturedProject';
 import React, {useState} from 'react';
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
         {/* <div className='aboutPopUpContainer'><AboutPopUp/></div> */}
 
       </div>
+      {/* end main page */}
+
+      <FeaturedProject />
+      <h3>See More projects Link</h3>
 
     </div>
   );

@@ -1,0 +1,8 @@
+.featProjInfo {
+  border: 1px solid pink;
+  width: 50%;
+}
+
+.featProjInfo p {
+  text-align: center;
+}
