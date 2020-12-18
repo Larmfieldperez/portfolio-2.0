@@ -8,25 +8,32 @@ function FeaturedProject() {
 
       <center>
         <h1> Featured Project </h1>
-      </center>
+      {/* </center> */}
 
       <div className="featuredImages">
         <img src={FeatImage1} alt='shelter in pets 1' className={`featImage leftFeatImage`}/>
         <img src={FeatImage1} alt='shelter in pets 1' className={`featImage rightFeatImage`}/>
       </div>
 
-      <center>
+      {/* <center> */}
       <div className="featProjInfo">
-        <center>
+        {/* <center> */}
           <h2>Featured Proj Title here</h2>
-        </center>
+        {/* </center> */}
 
         <p> hello here we have a short description of the featured project just a coupla lines nothing crazy a few sentences two maybe three give or take one or two if you want to depends on the project i guess</p>
       </div>
 
       <div className="featuredLinks">
-        <p>github link</p>
-        <p>website link</p>
+
+        <a href="https://github.com/sense-5/shelter-in-pets" target="_blank">
+          <p>github</p>
+        </a>
+
+        <a href="https://expo.io/@shelterinpets/projects/ShelterInPets?release-channel=prod" target="_blank">
+          <p>website link</p>
+        </a>
+
       </div>
       </center>
 

@@ -1,8 +1,67 @@
+
+
+@media (max-width: 900px) {
+  .featuredImages {
+    height: 300px;
+  }
+
+  .featuredLinks {
+    flex-direction: column;
+  }
+
+  /* .featuredImages img {
+    height: auto;
+    width: 30%;
+  } */
+}
+
+featProjPage h1 {
+  margin: 10px;
+  border: 2px solid yellow;
+}
+
 .featProjInfo {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 50%;
 }
 
 .featProjInfo p {
   text-align: center;
+}
+
+.featuredImages {
+  border: 2px solid red;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.featuredImages img {
+  height: 300px;
+}
+
+.leftFeatImage {
+  transform: rotate(-10deg);
+  /* border: 1px solid green; */
+}
+
+.rightFeatImage {
+  transform: rotate(10deg);
+}
+
+.featuredLinks {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  border: 1px dashed yellow;
+}
+
+.featuredLinks p {
+  text-decoration: none;
+  color: yellow;
+  border: 1px solid green;
+  margin: 10px;
+  padding: 20px;
+  width: 150px;
 }
