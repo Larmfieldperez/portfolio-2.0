@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatImage1 from './ShelterInPets1.png'
+import FeatImage1 from '../images/ShelterInPets1.png'
 import './FeaturedProject.css'
 
 function FeaturedProject() {

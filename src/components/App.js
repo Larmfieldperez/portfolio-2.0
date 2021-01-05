@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import pow from './pow.png'
+// import logo from './logo.svg';
+// import pow from './images/pow.png'
 import './App.css';
 import AboutPopUp from './AboutPopUp';
 import FeaturedProject from './FeaturedProject';
