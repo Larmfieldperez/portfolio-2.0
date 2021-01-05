@@ -58,9 +58,10 @@ featProjPage h1 {
 }
 
 .featuredLinks p {
+  /* border: 1px solid green; */
   text-decoration: none;
+  background-color: white;
   color: yellow;
-  border: 1px solid green;
   margin: 10px;
   padding: 20px;
   width: 150px;

@@ -7,7 +7,7 @@ function FeaturedProject() {
     <div className='featProjPage'>
 
       <center>
-        <h1> Featured Project </h1>
+        <h1> ☻ Featured Project ☻ </h1>
       {/* </center> */}
 
       <div className="featuredImages">
