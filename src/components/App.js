@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
 // import pow from './images/pow.png'
+import React, {useState} from 'react';
 import './App.css';
 import AboutPopUp from './AboutPopUp';
 import FeaturedProject from './FeaturedProject';
-import React, {useState} from 'react';
+import AllProjects from './AllProjects';
+
 
 function App() {
   const [showAbout, toggleAbout] = useState(false)
@@ -53,7 +55,10 @@ function App() {
       {/* end main page */}
 
       <FeaturedProject />
-      <h3>See More projects Link</h3>
+
+      <h3>more projects load as u scroll hehehehhe</h3>
+
+      <AllProjects />
 
     </div>
   );
