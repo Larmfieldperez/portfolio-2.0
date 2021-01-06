@@ -6,7 +6,8 @@ body {
   /* font-family: 'Markazi Text', serif; */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom right, rgb(255, 38, 237), rgb(7, 255, 255));
+  background-image: url('../images/Background.jpg');
+  /* background-image: linear-gradient(to bottom right, rgb(255, 38, 237), rgb(7, 255, 255)); */
   color: white;
 }
 
