@@ -1,14 +1,13 @@
 import React from 'react';
 import projects from './ProjectsList';
+import SingleProject from './SingleProject';
 
 function AllProjects() {
   return (
     <div className='AllProjects'>
       {projects.map(project => {
         return (
-          <div>
-            <h1>{project.name}</h1>
-          </div>
+          <SingleProject project={project} />
         )
       })}
     </div>
