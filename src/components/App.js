@@ -8,14 +8,15 @@ import AllProjects from './AllProjects';
 
 
 function App() {
-  const [showAbout, toggleAbout] = useState(false)
+  const [showAbout, setIsShown] = useState(false);
 
-  const handleAbout = () => {
-    // console.log('curr about state is ', showAbout)
-    // console.log('ABOUT WAS CLICKED HEHEH')
-    toggleAbout(showAbout => !showAbout)
-    // console.log('after click, about state is ', showAbout)
-  }
+  //SHOULD I HAVE CLICK HANDLER FOR MOBILE USERS?????? TBD
+  // const handleAbout = () => {
+  //   // console.log('curr about state is ', showAbout)
+  //   // console.log('ABOUT WAS CLICKED HEHEH')
+  //   setIsShown(showAbout => !showAbout)
+  //   // console.log('after click, about state is ', showAbout)
+  // }
 
   return (
     <div className="App">
@@ -37,12 +38,25 @@ function App() {
         </div>
 
         {/* NAME AREA/ABOUT INFO */}
+        {/* {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
+          <h1>Laura <br></br> Armfield-Perez</h1>
+        </div>} */}
         {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
           <h1>Laura <br></br> Armfield-Perez</h1>
         </div>}
 
         <div className='section'>
+          {/*
           <div className="About-Button" onClick={() => handleAbout()}>
+            {/* should this be a hover thing IDK
+            <h2>About ME</h2>
+          </div>
+          */}
+
+          <div className="About-Button"
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}
+          >
             {/* should this be a hover thing IDK */}
             <h2>About ME</h2>
           </div>
