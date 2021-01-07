@@ -1,0 +1,24 @@
+.contact-container {
+  border: 1px solid black;
+  width: 40%;
+  margin: 15px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.contact-links {
+  /* border: 1px solid green; */
+  margin: 30px;
+}
+
+.contact-links a {
+  border: 1px solid blue;
+  margin: 15px;
+  padding: 20px;
+  text-decoration: underline;
+  color: white;
+}
+
+.contact-links a:hover {
+  color: black;
+}

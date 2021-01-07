@@ -5,6 +5,7 @@ import './App.css';
 import AboutPopUp from './AboutPopUp';
 import FeaturedProject from './FeaturedProject';
 import AllProjects from './AllProjects';
+import Contact from './Contact';
 
 
 function App() {
@@ -73,6 +74,10 @@ function App() {
       <h3>more projects load as u scroll hehehehhe</h3>
 
       <AllProjects />
+
+      <center>
+        <Contact />
+      </center>
 
     </div>
   );

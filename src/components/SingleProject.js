@@ -1,5 +1,4 @@
 import React from 'react';
-import projects from './ProjectsList';
 // import projects from './ProjectsList';
 
 function SingleProject(props) {
