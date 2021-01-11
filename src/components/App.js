@@ -71,8 +71,6 @@ function App() {
 
       <FeaturedProject />
 
-      <h3>more projects load as u scroll hehehehhe</h3>
-
       <AllProjects />
 
       <center>

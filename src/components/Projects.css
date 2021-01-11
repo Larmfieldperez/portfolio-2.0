@@ -1,0 +1,35 @@
+.AllProjects {
+  border: 1px solid red;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SingleProject {
+  border: 1px solid blue;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.info-box {
+  width: 50%;
+}
+
+.info-box a {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 10px;
+}
+
+.TitleDivider {
+  border: 1px solid white;
+}
+
+@media (max-width: 900px) {
+  .SingleProject {
+    flex-direction: column-reverse;
+  }
+}

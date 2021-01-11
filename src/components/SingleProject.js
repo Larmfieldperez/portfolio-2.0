@@ -1,5 +1,5 @@
 import React from 'react';
-// import projects from './ProjectsList';
+import './Projects.css';
 
 function SingleProject(props) {
   const project = props.project;
@@ -11,9 +11,13 @@ function SingleProject(props) {
 
 
   return (
-    <div>
+    <div className="SingleProject">
+
       <div className="info-box">
         <h3>{name}</h3>
+
+        <hr className="TitleDivider"/>
+
         <p>{desc}</p>
         <p>Technologies:</p>
         <ul>
@@ -28,6 +32,11 @@ function SingleProject(props) {
 
         {site ? <a href={site} target="_blank" rel="noreferrer">site</a> : <div></div>}
       </div>
+
+      <div className="ProjectImage">
+        <p>placeholder</p>
+      </div>
+
     </div>
   )
 }
