@@ -1,13 +1,20 @@
 import React from 'react';
 import './Projects.css';
+import tempLaptop from '../images/LuxDucks.png';
+import tempIphone from '../images/ShelterInPets1.png'
 
 function SingleProject(props) {
   const project = props.project;
+
   const name = project.name;
   const desc = project.desc;
   const tech = project.technologies;
   const github = project.github;
   const site = project.site;
+  const type = project.imageType;
+  const imagePath = project.imagePath
+
+  const photo = require(`../images/${project.imagePath}.png`);
 
 
   return (
@@ -34,7 +41,15 @@ function SingleProject(props) {
       </div>
 
       <div className="ProjectImage">
-        <p>placeholder</p>
+        {console.log('image path is, ', imagePath)}
+        {/* <img src={require(`../images/${imagePath}.png`)} alt="pls fill this in later" className="Image"/> */}
+        {/* <img src={photo} alt="screenshot of app" className="Image"/> */}
+
+        {
+          type === 'laptop' ? <img src={tempLaptop} alt="temp laptop pic" className="Laptop" /> :
+          <img src={tempLaptop} alt="temp iphone pic" className="Iphone" />
+        }
+
       </div>
 
     </div>

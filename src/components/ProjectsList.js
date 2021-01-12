@@ -9,7 +9,8 @@ const projects = [
     github: 'https://github.com/GreatGatsby-js/grace-shopper',
     site: 'https://grace-shopper-great-gatsby.herokuapp.com/',
     imageType: 'laptop',
-    imagePath: './images/LuxDucks.png'
+    // imagePath: '../images/LuxDucks.png'
+    imagePath: 'LuxDucks'
   },
   {
     name: 'Fin Lit',
@@ -18,7 +19,8 @@ const projects = [
     github: 'https://github.com/HackItGH20/fin-literacy',
     site: 'https://fin-literacy.herokuapp.com/',
     imageType: 'laptop',
-    imagePath: './images/FinLit.png'
+    // imagePath: '../images/FinLit.png'
+    imagePath: 'FinLit'
   },
   {
     name: 'Perfect it',
@@ -27,7 +29,8 @@ const projects = [
     github: 'https://github.com/Larmfieldperez/Perfect-it',
     site: null,
     imageType: 'iphone',
-    imagePath: './images/Perfectit.png'
+    // imagePath: '../images/PerfectIt.png'
+    imagePath: 'PerfectIt'
   }
 ]
 

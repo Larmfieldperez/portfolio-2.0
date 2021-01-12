@@ -12,6 +12,7 @@
   padding: 20px;
   margin: 20px;
   display: flex;
+  justify-content: center;
 }
 
 .info-box {
@@ -26,6 +27,17 @@
 
 .TitleDivider {
   border: 1px solid white;
+}
+
+.ProjectImage {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.Image {
+  border: 1px solid green;
+  width: 200px;
+  height: auto;
 }
 
 @media (max-width: 900px) {
