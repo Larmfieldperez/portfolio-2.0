@@ -34,11 +34,11 @@
   margin: 10px;
 }
 
-.Image {
+/* .Image {
   border: 1px solid green;
   width: 200px;
   height: auto;
-}
+} */
 
 @media (max-width: 900px) {
   .SingleProject {

@@ -14,7 +14,7 @@ function SingleProject(props) {
   const type = project.imageType;
   const imagePath = project.imagePath
 
-  const photo = require(`../images/${project.imagePath}.png`);
+  // const photo = require(`../images/${project.imagePath}.png`);
 
 
   return (
@@ -30,7 +30,7 @@ function SingleProject(props) {
         <ul>
           {tech.map(tech => {
             return(
-            <li>{tech}</li>
+            <li key={tech}>{tech}</li>
             )
           })}
         </ul>
@@ -45,9 +45,9 @@ function SingleProject(props) {
         {/* <img src={require(`../images/${imagePath}.png`)} alt="pls fill this in later" className="Image"/> */}
         {/* <img src={photo} alt="screenshot of app" className="Image"/> */}
 
-        {
-          type === 'laptop' ? <img src={tempLaptop} alt="temp laptop pic" className="Laptop" /> :
-          <img src={tempLaptop} alt="temp iphone pic" className="Iphone" />
+        {type === 'laptop'
+          ? <img src={tempLaptop} alt="temp laptop pic" className="Laptop" />
+          : <img src={tempIphone} alt="temp iphone pic" className="Iphone" />
         }
 
       </div>

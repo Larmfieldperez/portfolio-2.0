@@ -26,11 +26,11 @@ function FeaturedProject() {
 
       <div className="featuredLinks">
 
-        <a href="https://github.com/sense-5/shelter-in-pets" target="_blank">
+        <a href="https://github.com/sense-5/shelter-in-pets" target="_blank" rel="noreferrer">
           <p>github</p>
         </a>
 
-        <a href="https://expo.io/@shelterinpets/projects/ShelterInPets?release-channel=prod" target="_blank">
+        <a href="https://expo.io/@shelterinpets/projects/ShelterInPets?release-channel=prod" target="_blank" rel="noreferrer">
           <p>website link</p>
         </a>
 

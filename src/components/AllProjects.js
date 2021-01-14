@@ -8,7 +8,7 @@ function AllProjects() {
     <div className='AllProjects'>
       {projects.map(project => {
         return (
-          <SingleProject project={project} />
+          <SingleProject project={project} key={project.name}/>
         )
       })}
     </div>
