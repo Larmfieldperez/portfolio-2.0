@@ -30,7 +30,7 @@ featProjPage h1 {
 }
 
 .featuredImages {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 70%;
   display: flex;
   justify-content: space-around;
@@ -53,16 +53,25 @@ featProjPage h1 {
 .featuredLinks {
   display: flex;
   width: 70%;
-  justify-content: space-between;
-  border: 1px dashed yellow;
+  justify-content: space-around;
+  /* border: 1px dashed yellow; */
 }
 
 .featuredLinks p {
-  /* border: 1px solid green; */
+  border: 1px solid white;
   text-decoration: none;
-  background-color: white;
-  color: yellow;
+  /* background-color: white; */
+  color: white;
   margin: 10px;
   padding: 20px;
-  width: 150px;
+  width: 200px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+.featuredLinks p:hover {
+  background-color: white;
+  color: #ef9166;
+  transition: ease-in;
+  transition-duration: 0.3s;
 }

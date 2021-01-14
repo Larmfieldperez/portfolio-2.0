@@ -29,42 +29,27 @@ function App() {
 
       <div className="main">
 
-        <div className='section'>
+        {/* <div className='section'> */}
 
           <div className="EngineerWords">
             <h2>Software Enginner</h2>
           </div>
 
-          {/* <img src={pow} alt="pow bubble" className='pow'/> */}
-        </div>
+        {/* </div> */}
 
-        {/* NAME AREA/ABOUT INFO */}
-        {/* {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
-          <h1>Laura <br></br> Armfield-Perez</h1>
-        </div>} */}
-        {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
+
+        {window.innerWidth > 900 && showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
           <h1>Laura <br></br> Armfield-Perez</h1>
         </div>}
 
-        <div className='section'>
-          {/*
-          <div className="About-Button" onClick={() => handleAbout()}>
-            {/* should this be a hover thing IDK
-            <h2>About ME</h2>
-          </div>
-          */}
-
+        <div className='aboutSection'>
           <div className="About-Button"
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
           >
-            {/* should this be a hover thing IDK */}
             <h2>About ME</h2>
           </div>
         </div>
-
-
-        {/* <div className='aboutPopUpContainer'><AboutPopUp/></div> */}
 
       </div>
       {/* end main page */}

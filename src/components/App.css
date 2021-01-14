@@ -19,9 +19,10 @@ a {
   .main {
     flex-direction: column;
   }
-  .section {
-    justify-content: center;
+  .aboutPopUpContainer {
+    width: 90%;
   }
+
 }
 
 .App-header {
@@ -50,9 +51,10 @@ a {
   padding: 10px;
   display: flex;
   /* flex-direction: row-reverse; */
-  justify-content: space-around;
-  /* border: 2px solid yellow; */
+  justify-content: space-between;
+  border: 2px solid yellow;
   height: 85vh;
+  /* align-content: center; */
 }
 
 .Name {
@@ -61,57 +63,59 @@ a {
   text-align: center;
   /* transform: rotate(-10deg); */
   font-size: 2em;
+  transition: ease-in;
+  transition-duration: 0.3s;
 }
 
 .EngineerWords {
-  /* background-color: white; */
+  border: 1px solid red;
+  align-self: center;
+}
+
+.EngineerWords h2{
   justify-self: center;
-  /* margin-top: 20px; */
+  align-self: center;
   text-align: center;
   width: 300px;
   padding: 10px;
-  /* margin: 10px; */
-  /* z-index: 100; */
   transform: rotate(-10deg);
 
 }
 
-.pow {
-  position: absolute;
-  border: 1px solid white;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-
-/* .techSection {
-  border: 2px solid red;
-  display: flex;
-  align-items: center;
-  position: relative;
-} */
-
-.section {
-  /* border: 2px solid red; */
-  display: flex;
-  align-items: center;
-  position: relative;
+.aboutSection {
+  border: 1px solid red;
+  align-self: center;
 }
 
 .About-Button {
+  border: 1px solid blue;
   justify-self: center;
-  border-radius: 100%;
   text-align: center;
   /* color: blue; */
-  width: 300px;
+  width: 250px;
   padding: 10px;
   /* margin: 10px; */
   transform: rotate(10deg);
 }
 
 .aboutPopUpContainer {
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
+  width: 80%;
+  padding: 10px;
   align-self: center;
   justify-self: center;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+.AboutMe {
+  color: #ef9166;
+  background-color: rgb(255, 255, 255, 0.8);
+  padding: 10px;
+  box-shadow: 0px 0px 8px 2px rgba(80, 79, 79, 0.6);
+}
+
+.AboutMe span {
+  color: #97c0c2;
 }
 

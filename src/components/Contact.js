@@ -7,7 +7,7 @@ function Contact() {
 
           <h2>CONTACT</h2>
 
-          <hr />
+          <hr className="contactHR" />
 
           <div className="contact-links">
             <a href="http://linkedin.com/in/laura-armfield-perez" target="_blank" rel="noreferrer">linkedin</a>
