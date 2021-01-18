@@ -7,14 +7,41 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* border: 1px solid black; */
   background-color: rgb(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+.App-header div{
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  /* border: 1px solid red; */
 }
 
 /* HEADER LINKS */
-.App-header h2 {
-  border: 1px solid rgb(10, 0, 153);
+.App-header span {
+  /* border: 1px solid rgb(10, 0, 153); */
   padding: 10px;
-  color: black;
+  font-size: 30px;
+  color: #89bfc5;
+  letter-spacing: 3px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+.App-header span:hover {
+  letter-spacing: 1px;
+  color: #ef9166;
+  transition: ease-in;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .App-header span {
+    font-size: 20px;
+    padding: 5px;
+  }
 }
