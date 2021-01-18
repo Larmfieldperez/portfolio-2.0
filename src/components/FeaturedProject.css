@@ -15,30 +15,53 @@
   } */
 }
 
-featProjPage h1 {
+.featProjPage {
+  height: 100vh;
+  /* border: 1px solid black; */
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featuredContent {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.featProjPage h1 {
   margin: 10px;
-  border: 2px solid yellow;
+  align-self: center;
+  width: 60%;
+  /* border: 2px solid yellow; */
+  text-align: center;
+  border-bottom: 2px solid white;
 }
 
 .featProjInfo {
+  margin-top: -10px;
   /* border: 1px solid pink; */
   width: 50%;
+  align-self: center;
 }
 
-.featProjInfo p {
+.featProjInfo p, h2 {
   text-align: center;
 }
 
 .featuredImages {
   /* border: 2px solid red; */
-  width: 70%;
   display: flex;
-  justify-content: space-around;
   margin: 20px;
+  justify-content: space-evenly;
 }
 
 .featuredImages img {
   height: 300px;
+  padding: 20px;
 }
 
 .leftFeatImage {
@@ -51,25 +74,27 @@ featProjPage h1 {
 }
 
 .featuredLinks {
+  align-self: center;
   display: flex;
-  width: 70%;
+  width: 60%;
   justify-content: space-around;
   /* border: 1px dashed yellow; */
 }
 
-.featuredLinks p {
+.featuredLinks a {
   border: 1px solid white;
   text-decoration: none;
+  text-align: center;
   /* background-color: white; */
   color: white;
   margin: 10px;
   padding: 20px;
-  width: 200px;
+  width: 50%;
   transition: ease-in;
   transition-duration: 0.3s;
 }
 
-.featuredLinks p:hover {
+.featuredLinks a:hover {
   background-color: white;
   color: #ef9166;
   transition: ease-in;

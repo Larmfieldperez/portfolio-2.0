@@ -11,8 +11,8 @@ function AllProjects() {
       {projects.map(project => {
         return (
             <div>
-              <LazyLoad throttle={200} delay={200}>
-              <FadeIn delay={500} transitionDuration={600}>
+              <LazyLoad throttle={200} delay={150}>
+              <FadeIn delay={600} transitionDuration={600}>
               <SingleProject project={project} key={project.name} />
               </FadeIn>
               </LazyLoad>
