@@ -8,6 +8,7 @@ import AllProjects from './AllProjects';
 import Contact from './Contact';
 import Header from './Header'
 
+import {Element} from 'react-scroll'
 
 function App() {
   const [showAbout, setIsShown] = useState(false);
@@ -66,16 +67,17 @@ function App() {
 
       </div>
       {/* end main page */}
-
-      <FeaturedProject />
-
-      <h3>more projects load as u scroll hehehehhe</h3>
+      <Element name="Projects">
+        <FeaturedProject />
+      </Element>
 
       <AllProjects />
 
-      <center>
-        <Contact />
-      </center>
+      <Element name="Contact">
+        <center>
+          <Contact />
+        </center>
+      </Element>
 
     </div>
   );
