@@ -1,5 +1,5 @@
 .AllProjects {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 20px;
   margin-top: 50px;
   padding: 20px;
@@ -8,24 +8,41 @@
 }
 
 .SingleProject {
-  border: 1px solid blue;
-  padding: 20px;
-  margin: 20px;
+  /* border: 1px solid blue; */
+  padding: 10px;
+  margin: 25px;
   display: flex;
   justify-content: center;
 }
 
 .info-box {
   width: 50%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
+.projectName {
+  /* border: 1px solid red; */
+  margin-bottom: -5px;
+}
+
 .info-box a {
   border: 1px solid white;
-  padding: 5px;
+  color: white;
+  text-align: center;
+  padding: 15px;
   margin: 10px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+.info-box a:hover {
+  background-color: white;
+  color: #ef9166;
+  transition: ease-in;
+  transition-duration: 0.3s;
 }
 
 .TitleDivider{
@@ -34,7 +51,7 @@
 }
 
 .ProjectImage {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   /* align-content: center; */
   justify-content: center;
@@ -56,7 +73,7 @@
 .Iphone {
   /* height: 50%; */
   width: 50%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   /* justify-self: center; */
 }
 

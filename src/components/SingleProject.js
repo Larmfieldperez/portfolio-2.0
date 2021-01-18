@@ -21,7 +21,7 @@ function SingleProject(props) {
     <div className="SingleProject">
 
       <div className="info-box">
-        <h3>{name}</h3>
+        <h2 className="projectName">{name}</h2>
 
         <hr className="TitleDivider"/>
 
