@@ -1,0 +1,67 @@
+.AllProjects {
+  border: 1px solid red;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SingleProject {
+  border: 1px solid blue;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  width: 50%;
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box a {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 10px;
+}
+
+.TitleDivider{
+  border: 1px solid white;
+  width: 100%;
+}
+
+.ProjectImage {
+  border: 1px solid red;
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  margin: 10px;
+  width: 40%;
+}
+
+/* .Image {
+  border: 1px solid green;
+  width: 200px;
+  height: auto;
+} */
+
+.Laptop {
+  width: 100%;
+  align-self: center;
+}
+
+.Iphone {
+  /* height: 50%; */
+  width: 50%;
+  border: 1px solid yellow;
+  /* justify-self: center; */
+}
+
+@media (max-width: 900px) {
+  .SingleProject {
+    flex-direction: column-reverse;
+  }
+}
