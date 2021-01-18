@@ -3,6 +3,8 @@ import './Projects.css';
 import tempLaptop from '../images/LuxDucks.png';
 import tempIphone from '../images/ShelterInPets1.png'
 
+import LazyLoad from 'react-lazyload'
+
 function SingleProject(props) {
   const project = props.project;
 

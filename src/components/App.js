@@ -7,8 +7,9 @@ import FeaturedProject from './FeaturedProject';
 import AllProjects from './AllProjects';
 import Contact from './Contact';
 import Header from './Header'
-
 import {Element} from 'react-scroll'
+
+// import LazyLoad from 'react-lazyload';
 
 function App() {
   const [showAbout, setIsShown] = useState(false);
@@ -71,7 +72,9 @@ function App() {
         <FeaturedProject />
       </Element>
 
+      {/* <LazyLoad offset={200}> */}
       <AllProjects />
+      {/* </LazyLoad> */}
 
       <Element name="Contact">
         <center>
