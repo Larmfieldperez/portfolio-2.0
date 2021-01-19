@@ -2,7 +2,8 @@
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Bree Serif', serif;
+  /* font-family: 'Bree Serif', serif; */
+  font-family: 'Yeseva One', cursive;
   /* font-family: 'Markazi Text', serif; */
   background-repeat: no-repeat;
   background-attachment: fixed;

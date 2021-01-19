@@ -52,6 +52,10 @@
   text-align: center;
 }
 
+.featProjInfo p {
+  font-family: 'Bree Serif', serif;
+}
+
 .featuredImages {
   /* border: 2px solid red; */
   display: flex;
@@ -78,6 +82,7 @@
   display: flex;
   width: 60%;
   justify-content: space-around;
+  font-family: 'Bree Serif', serif;
   /* border: 1px dashed yellow; */
 }
 

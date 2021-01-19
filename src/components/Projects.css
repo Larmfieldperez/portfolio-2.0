@@ -17,6 +17,7 @@
 
 .info-box {
   width: 50%;
+  font-family: 'Bree Serif', serif;
   /* border: 1px solid pink; */
   padding: 20px;
   display: flex;
@@ -26,6 +27,7 @@
 .projectName {
   /* border: 1px solid red; */
   margin-bottom: -5px;
+  font-family: 'Yeseva One', cursive;
 }
 
 .info-box a {
