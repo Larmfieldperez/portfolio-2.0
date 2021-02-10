@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-2.0/static/css/main.df24815c.chunk.css",
+    "main.js": "/portfolio-2.0/static/js/main.a31876dd.chunk.js",
+    "main.js.map": "/portfolio-2.0/static/js/main.a31876dd.chunk.js.map",
+    "runtime-main.js": "/portfolio-2.0/static/js/runtime-main.fe7c0bc9.js",
+    "runtime-main.js.map": "/portfolio-2.0/static/js/runtime-main.fe7c0bc9.js.map",
+    "static/js/2.54d97e91.chunk.js": "/portfolio-2.0/static/js/2.54d97e91.chunk.js",
+    "static/js/2.54d97e91.chunk.js.map": "/portfolio-2.0/static/js/2.54d97e91.chunk.js.map",
+    "static/js/3.6c993f20.chunk.js": "/portfolio-2.0/static/js/3.6c993f20.chunk.js",
+    "static/js/3.6c993f20.chunk.js.map": "/portfolio-2.0/static/js/3.6c993f20.chunk.js.map",
+    "index.html": "/portfolio-2.0/index.html",
+    "static/css/main.df24815c.chunk.css.map": "/portfolio-2.0/static/css/main.df24815c.chunk.css.map",
+    "static/js/2.54d97e91.chunk.js.LICENSE.txt": "/portfolio-2.0/static/js/2.54d97e91.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio-2.0/static/media/Background.7a625754.jpg",
+    "static/media/LuxDucks.dfb2f41b.png": "/portfolio-2.0/static/media/LuxDucks.dfb2f41b.png",
+    "static/media/ShelterInPets1.6003262f.png": "/portfolio-2.0/static/media/ShelterInPets1.6003262f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe7c0bc9.js",
+    "static/js/2.54d97e91.chunk.js",
+    "static/css/main.df24815c.chunk.css",
+    "static/js/main.a31876dd.chunk.js"
+  ]
+}
