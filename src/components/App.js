@@ -8,6 +8,7 @@ import AllProjects from './AllProjects';
 import Contact from './Contact';
 import Header from './Header'
 import {Element} from 'react-scroll'
+import Name from './Name'
 
 // import LazyLoad from 'react-lazyload';
 
@@ -32,7 +33,7 @@ function App() {
         <div className='section'>
 
           <div className="EngineerWords">
-            <h2>Software Enginner</h2>
+            <h2>Software Engineer</h2>
           </div>
 
           {/* <img src={pow} alt="pow bubble" className='pow'/> */}
@@ -42,9 +43,7 @@ function App() {
         {/* {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
           <h1>Laura <br></br> Armfield-Perez</h1>
         </div>} */}
-        {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <div className="Name">
-          <h1>Laura <br></br> Armfield-Perez</h1>
-        </div>}
+                {showAbout ? <div className='aboutPopUpContainer'><AboutPopUp/></div> :  <Name />}
 
         <div className='section'>
           {/*
