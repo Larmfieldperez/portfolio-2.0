@@ -24,14 +24,16 @@ export default class Name extends Component {
       ${xMove}px ${yMove}px 2px rgb(48, 48, 48, 0.7)
     `;
 
-    this.render();
+    // this.render();
   }
 
   render() {
     return(
-      <div className="Name" onMouseMove={this.handleMouseMove.bind(this)}>
-          <h1>Laura <br></br> Armfield-Perez</h1>
-      </div>
+      // <div onMouseMove={this.handleMouseMove.bind(this)}>
+        <div className="Name" onMouseMove={this.handleMouseMove.bind(this)}>
+            <h1>Laura <br></br> Armfield-Perez</h1>
+        </div>
+      // </div>
     )
   }
 }
