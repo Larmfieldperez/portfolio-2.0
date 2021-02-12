@@ -7,7 +7,7 @@ export default class Name extends Component {
     // this.height = nameDiv.offsetHeight;
     this.height = window.innerHeight;
     this.width = window.innerWidth;
-    this.nameText = nameDiv.querySelector('h1');
+    this.nameText = nameDiv.querySelector('.titleNameText');
     this.move = 15;
   }
 
@@ -31,7 +31,7 @@ export default class Name extends Component {
     return(
       // <div onMouseMove={this.handleMouseMove.bind(this)}>
         <div className="Name" onMouseMove={this.handleMouseMove.bind(this)}>
-            <h1>Laura <br></br> Armfield-Perez</h1>
+            <h1 className="titleNameText">Laura <br></br> Armfield-Perez</h1>
         </div>
       // </div>
     )
